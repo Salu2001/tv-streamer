@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Channel Streamer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TV Channel Streamer</h1>
+            <button id="theme-toggle">🌓</button>
+        </header>
+        
+        <div class="channel-list">
+            <div class="channel" data-channel="channel1">
+                <h3>Channel 1</h3>
+                <div class="video-container">
+                    <video id="channel1" controls></video>
+                </div>
+            </div>
+            
+            <div class="channel" data-channel="channel2">
+                <h3>Channel 2</h3>
+                <div class="video-container">
+                    <video id="channel2" controls></video>
+                </div>
+            </div>
+            
+            <div class="channel" data-channel="channel3">
+                <h3>Channel 3</h3>
+                <div class="video-container">
+                    <video id="channel3" controls></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
